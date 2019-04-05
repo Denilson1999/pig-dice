@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>pig dice</h1>
-      <h2>GAME RULES</h2>
-      <ul>
-        <li>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</li>
-        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
-        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
-        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
 
-      </ul>
-       <form class="" action="index.html" method="post">
-         <div class="col-md-4">
-           <div class="form-group">
-             <label for="playe1">player 1</label>
-                    <input id="player1" class="form-control" type="text">
-           </div>
-         </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
 
-       </form>
+<body>
+  <div class="container">
+    <h1>pig dice</h1>
+    <h2>GAME RULES</h2>
+    <ul>
+      <li>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</li>
+      <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+      <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+      <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
 
+    </ul>
+    <form class="" action="index.html" method="post">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="playe1">player 1</label>
+            <input id="player1" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="player2">player 2</label>
+            <input type="text" id="player2" class="form-control">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-danger">play</button>
+
+    </form>
+
+  </div>
+
+    
+    <div id="dip">
+
+    <input type="submit" id="roll1" name="ROLL" value="Roll">
     </div>
-<button type="button" class="btn btn-primary" onclick="denilson()"></button>
-  </body>
+  <div class="den">
+
+  </div>
+
+</body>
+
 </html>
