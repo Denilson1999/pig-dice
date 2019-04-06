@@ -7,6 +7,7 @@ $(document).ready(function() {
   //   alert(sum)
   // }
   //
+  var hold = 0;
   var total1 = 0;
 
   $("#roll1").click(() => {
@@ -26,5 +27,11 @@ $(document).ready(function() {
       $(".den2").text(total1);
    }
 
+
 });
+$("#hold").click(() =>{
+  event.preventDefault();
+  hold = "Total " + total1;
+  $(".den3").text(hold)
+})
 });
