@@ -1,5 +1,4 @@
-# pig dice
-![Pig dice](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwix1Oizpr3hAhWj2uAKHd_cBhUQMwhjKBgwGA&url=https%3A%2F%2Fwww.ebay.com%2Fitm%2FVintage-Parker-Brothers-Pig-Dice-Game%2F254160147394&psig=AOvVaw17bMauxIf8m0peE9AA_iT2&ust=1554703071983104&ictx=3&uact=3)
+# PIG DICE
 #### description
 **_pig dice_** This is a simple dice game where the user rolls dice to accumulate certain number of scores
 #### Author
@@ -27,8 +26,8 @@ $ open index.html on your favorite browser
 * Style sheet
  * CSS
 ## Support and contact details
-*  **EMAIL**
-[Denilson Makotsi](denilsonmakotsi@gmail.com)
+  **EMAIL**
+*  _denilsonmakotsi@gmail.com_
 ### License
 _[MIT](https://choosealicense.com/licenses/mit/)_
 Copyright (c) 2019 Denilson Makotsi
