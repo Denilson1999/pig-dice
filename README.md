@@ -4,8 +4,15 @@
 **_pig dice_** This is a simple dice game where the user rolls dice to accumulate certain number of scores
 #### Author
 - [Denilson Makotsi](https://github.com/Denilson1999)
-## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+## Behavior Driven Development
+|Behavior    | Input   |Output|
+|:-----------:|:----------: |:----------:|
+|The gamer loads the page | game appears | the player reads the rules |
+|gamer enters the name | player1/denilson player2/makotsi | start game |
+|rolls the dice | roll===1 | game switchs to player2 |
+|rolls the dice | roll is either2,3,4,5,6 | score is either 2,3,4,5,6 |
+|player holds the game|score is added | total score===output per roll |
+|Total score ===100 |player1//player2===100 | winner |
 ## Setup/Installation Requirements
 - `git clone https://github.com/Denilson1999/pig-dice.git`
 - `cd pig-dice`
