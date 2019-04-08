@@ -27,7 +27,7 @@ $ open index.html on your favorite browser
 * Style sheet
  * CSS
 ## Support and contact details
-**EMAIL**
+*  **EMAIL**
 [Denilson Makotsi](denilsonmakotsi@gmail.com)
 ### License
 _[MIT](https://choosealicense.com/licenses/mit/)_
