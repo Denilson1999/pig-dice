@@ -11,6 +11,7 @@ $(document).ready(function() {
     if (dice1 === 1) {
       alert(" oops!you cant roll")
       total1 = 0;
+      $("#roll1").attr("disabled",true);
       $(".den2").text(total1);
     } else {
 
@@ -39,6 +40,7 @@ $(document).ready(function() {
     if (dice2 === 1) {
       alert("oops!you cant roll")
       total2 = 0;
+      $("#roll2").attr("disabled",true);
       $(".den6").text(total2)
 
     } else {
