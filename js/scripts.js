@@ -1,12 +1,5 @@
 $(document).ready(function() {
-  // var sum=[]
-  // function denilson(){
-  //   var dice1 = parseInt(Math.floor(Math.random()*6 +1))
-  //    $(".den").text(dice1;)
-  //   sum.push(dice1)
-  //   alert(sum)
-  // }
-  //
+  
   var hold = 0;
   var total1 = 0;
 
