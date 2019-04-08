@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   var hold = 0;
   var total1 = 0;
 
@@ -24,6 +24,8 @@ $(document).ready(function() {
   $("#hold").click(() => {
     event.preventDefault();
     hold = "Total " + total1;
+    $("#roll1").attr("disabled", true);
+    $("#hold").attr("disabled", false);
     $(".den3").text(hold)
   })
   var hold1 = 0;
@@ -47,6 +49,8 @@ $(document).ready(function() {
   $("#hold1").click(() => {
     event.preventDefault();
     hold1 = "Total " + total2;
+    $("#roll2").attr("disabled", true);
+    $("#hold1").attr("disabled", false);
     $(".den5").text(hold1)
   })
 });
