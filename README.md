@@ -9,7 +9,7 @@
 -   [Denilson Makotsi](https://github.com/Denilson1999)
     ## Behavior Driven Development
     |Behavior    | Input   |Output|
-    \|:-----------:\|:----------: \|:----------:\|
+    |:-----------:|:----------: |:----------:|
     |The gamer loads the page | game appears | the player reads the rules |
     |gamer enters the name | player1/denilson player2/makotsi | start game |
     |rolls the dice | roll===1 | game switchs to player2 |
