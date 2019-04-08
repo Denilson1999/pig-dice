@@ -1,5 +1,5 @@
 # PIG DICE
-#### description
+## description
 **_pig dice_** This is a simple dice game where the user rolls dice to accumulate certain number of scores
 #### Author
 - [Denilson Makotsi](https://github.com/Denilson1999)
